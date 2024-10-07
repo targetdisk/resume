@@ -58,26 +58,24 @@ logic/FPGA pool.
 
 * Worked on embedded C code that targeted MicroBlaze soft cores on Xilinx Ultrascale FPGAs
 * Worked to port aforementioned C code from a big loop running on bare metal to FreeRTOS
-* Wrote a C/Python extension wrapping Phil Karn’s LGPL’d Reed-Solomon FEC
-  * Wrote automated test suite for my Reed-Solomon C/Python extension
-* Tested code on very expensive 100G OTN hardware with expensive QSFP modules (never broke anything!)
-* Experimented with running Linux on Xilinx MicroBlaze soft cores
-* Assembled a tcpreplay/DPDK cluster with a Python FastAPI frontend for testing network performance of our in-house IP cores.
+* Wrote a C/Python extension wrapping Phil Karn’s LGPL’d Reed-Solomon FEC, adding an automated conformance testing suite
+* Tested code on 100G OTN hardware with expensive QSFP modules
+* Evaluated running Linux on Xilinx MicroBlaze soft cores
+* Assembled a tcpreplay/DPDK cluster with a Python FastAPI frontend for testing network performance of our in-house IP cores
 
 ### MachineSense | April 2019 to July 2019
 ### Embedded IOT Engineer
 
-* Responsible for deploying to over one hundred embedded ARM devices in an industrial environment.
+* Responsible for deploying to over one hundred embedded ARM devices in an industrial environment
 * Helped inform key architectural decisions in cloud and embedded middleware architecture
-* Wrote SSH reverse shell tool for access to and configuration management of embedded ARM systems in industrial environments.
+* Wrote SSH reverse shell tool for access to and configuration management of embedded ARM systems in industrial environments
   * Automatic sshd config file parsing
-  * Forwards local SSH port to C&C server based on the embedded device’s MAC address(es).
-  * Automatic key provisioning with synchronization to central RSA public key repository.
-* Reworked misbehaving prototype and final prototype boards with SMD hot-air soldering station and iron
+  * Forwards local SSH port to C&C server based on the embedded device’s MAC address(es)
+  * Automatic key provisioning with synchronization to central RSA public key repository
+* Repaired and added bodge components to misbehaving prototype boards during the development process
 * Performed R&D testing on embedded machines monitoring industrial motors, vacuum pumps, blowers, and dryers
-* Built custom Linux-based firmware images for embedded hardware.
 * Reverse-engineered competing product’s REST API
-* Web app vulnerability testing
+* Audited our web application for common security vulnerabilities
 * Debugged ZMQ IPC sockets with custom pcap filter in tcpdump
 
 ### Walmart Labs | October 2018 to February 2019
