@@ -67,12 +67,12 @@ logic/FPGA pool.
 ### MachineSense | April 2019 to July 2019
 ### Embedded IOT Engineer
 
+* Responsible for deploying to over one hundred embedded ARM devices in an industrial environment.
 * Helped inform key architectural decisions in cloud and embedded middleware architecture
 * Wrote SSH reverse shell tool for access to and configuration management of embedded ARM systems in industrial environments.
   * Automatic sshd config file parsing
   * Forwards local SSH port to C&C server based on the embedded device’s MAC address(es).
   * Automatic key provisioning with synchronization to central RSA public key repository.
-* Responsible for deploying to over one hundred embedded ARM devices in an industrial environment.
 * Reworked misbehaving prototype and final prototype boards with SMD hot-air soldering station and iron
 * Performed R&D testing on embedded machines monitoring industrial motors, vacuum pumps, blowers, and dryers
 * Built custom Linux-based firmware images for embedded hardware.
